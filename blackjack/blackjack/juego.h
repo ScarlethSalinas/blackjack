@@ -1,5 +1,5 @@
 // juego.h
-// Declaración de la clase Juego
+// DeclaraciÃ³n de la clase Juego
 
 #ifndef JUEGO_H
 #define JUEGO_H
@@ -25,6 +25,8 @@ public:
 private:
 	Lista* listaJugadores;
 	Mazo* baraja;
+	
+	String mostrarFinal();
 
 	void intro();
 	void menuPrincipal();
